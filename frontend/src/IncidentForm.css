@@ -1,0 +1,126 @@
+/* ---------- PAGE BACKGROUND ---------- */
+.dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 30px 40px;
+  color: #e5e7eb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- HEADER ---------- */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  color: #f9fafb;
+}
+
+.dashboard-header button {
+  padding: 8px 14px;
+  border: none;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dashboard-header button:hover {
+  background-color: #dc2626;
+}
+
+/* ---------- CENTERED FORM WRAPPER ---------- */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* ---------- INCIDENT FORM CARD ---------- */
+.form-card {
+  background-color: #111827;
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.form-card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #f9fafb;
+}
+
+.form-card input,
+.form-card textarea,
+.form-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1f2933;
+  color: #f9fafb;
+}
+
+.form-card input::placeholder,
+.form-card textarea::placeholder {
+  color: #9ca3af;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-card button:hover {
+  background-color: #2563eb;
+}
+
+/* ---------- INCIDENT GRID ---------- */
+.incident-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* ---------- INCIDENT CARD ---------- */
+.incident-card {
+  background-color: #111827;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.incident-card h3 {
+  margin-top: 0;
+  color: #f9fafb;
+}
+
+.incident-card p {
+  color: #d1d5db;
+}
+
+.incident-card button {
+  margin-top: 12px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.incident-card button:hover {
+  background-color: #dc2626;
+}
