@@ -75,6 +75,7 @@ Token-based authentication
 Modular project structure
 
 📁 Project Structure
+
 smart-incident-platform/
 │
 ├── backend/
