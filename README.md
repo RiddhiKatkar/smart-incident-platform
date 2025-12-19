@@ -98,13 +98,13 @@ smart-incident-platform/
 
 ⚙️ Setup Instructions (Local Development)
 🔹 Backend Setup
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+cd backend,
+python -m venv venv,
+venv\Scripts\activate,
+pip install -r requirements.txt,
+python manage.py migrate,
+python manage.py createsuperuser,
+python manage.py runserver,
 
 
 Backend runs on:
